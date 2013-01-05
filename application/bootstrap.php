@@ -111,6 +111,7 @@ Kohana::modules(array(
 	// 'cache'      => MODPATH.'cache',      // Caching with multiple backends
 	// 'codebench'  => MODPATH.'codebench',  // Benchmarking tool
 	 'database'   => MODPATH.'database',   // Database access
+	 'notify'      => MODPATH.'notify',      // Image manipulation
 	 'commoneer'      => MODPATH.'commoneer',      // Image manipulation
 	// 'minion'     => MODPATH.'minion',     // CLI Tasks
 	 'orm'        => MODPATH.'orm',        // Object Relationship Mapping
