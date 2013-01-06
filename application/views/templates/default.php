@@ -13,6 +13,13 @@
 	<style>
 		body {
 			padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+			background-image: url(http://subtlepatterns.subtlepatterns.netdna-cdn.com/patterns/debut_dark.png);
+		}
+		h1 {
+			color:white;
+		}
+		thead {
+			background-color: #F8F8F8;
 		}
 	</style>
 	<link href="../assets/css/bootstrap-responsive.css" rel="stylesheet">
@@ -41,13 +48,13 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</a>
-			<a class="brand" href="#">Projekt Lana</a>
+			<a class="brand" href="#"><?php echo __('p.name'); ?></a>
 			<div class="nav-collapse collapse">
 				<ul class="nav">
 					<li class="active"><a href="#">Home</a></li>
-					<li><a href="#about">About</a></li>
+					<li><a href="<?=URL::base() ?>groups"><?php echo __('groups'); ?></a></li>
 					<li><a href="#contact">Contact</a></li>
-					<li><a href="auth/logout">Log out</a></li>
+					<li><a href="auth/logout"><?php echo __('logout'); ?></a></li>
 				</ul>
 			</div><!--/.nav-collapse -->
 		</div>

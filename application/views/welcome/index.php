@@ -1,1 +1,1 @@
-<h1>Tere</h1>
+<h1><?php echo __('Welcome'); ?></h1>
