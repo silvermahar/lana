@@ -10,7 +10,7 @@ class Controller_Auth extends Controller_Template
 			$username = $this->request->post('username');
 			$password = $this->request->post('password');
 			//echo Auth::instance()->hash('demo');
-			$is_logged_in =	Auth::instance()->login($username, $password, true);
+			$is_logged_in = Auth::instance()->login($username, $password, true);
 
 			if ($is_logged_in) {
 				Notify::success('Sisse logitud');
