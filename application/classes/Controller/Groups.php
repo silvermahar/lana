@@ -7,4 +7,11 @@ class Controller_Groups extends Controller_Main {
 		$this->content->groups = $this->_orm->find_all();
 	}
 
+	public function action_add()
+	{
+		if($this->request->post('add')){
+			$group_data=$this->request->post('group');
+			$this->_orm->save_group($group_data);
+		}
+	}
 } // End Welcome

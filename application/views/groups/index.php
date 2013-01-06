@@ -3,7 +3,7 @@
 	<thead>
 		<tr>
 			<td><?php echo __('g.id'); ?></td>
-			<td>rühma nimi</td>
+			<td><?php echo __('g.name'); ?></td>
 		</tr>
 	</thead>
 	<tbody>

@@ -11,4 +11,6 @@ return array
 	'logout' => 'Logi välja',
 	'g.id' => 'Grupi ID',
 	'g.add' => 'Lisa uus grupp',
+	'g.name' => 'Grupi nimi',
+	'g.add' => 'Uue grupi lisamine',
 );
