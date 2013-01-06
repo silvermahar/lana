@@ -9,4 +9,6 @@ return array
 	'p.name' => 'Projekt Lana',
 	'groups' => 'Rühmad',
 	'logout' => 'Logi välja',
+	'g.id' => 'Grupi ID',
+	'g.add' => 'Lisa uus grupp',
 );

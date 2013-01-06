@@ -18,7 +18,7 @@
 		h1 {
 			color:white;
 		}
-		thead {
+		thead, tr {
 			background-color: #F8F8F8;
 		}
 	</style>

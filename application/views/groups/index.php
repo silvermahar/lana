@@ -2,15 +2,18 @@
 <table class="table table-striped table-bordered span5">
 	<thead>
 		<tr>
-			<td>rühma id</td>
+			<td><?php echo __('g.id'); ?></td>
 			<td>rühma nimi</td>
 		</tr>
 	</thead>
 	<tbody>
+	<?foreach($groups as $group):?>
 	<tr>
-		<td>1</td>
-		<td>Rühm</td>
+		<td><?=$group->id; ?></td>
+		<td><?=$group->name; ?></td>
 	</tr>
+	<?endforeach?>
 	</tbody>
 
 </table>
+	<a href="<?URL::base()?>groups/add"><?php echo __('g.add'); ?></a>
