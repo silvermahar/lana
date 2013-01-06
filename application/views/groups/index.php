@@ -16,4 +16,4 @@
 	</tbody>
 
 </table>
-<a href="<?URL::base()?>groups/add"><?php echo __('g.add'); ?></a>
+<a class="btn btn-warning" style="margin-left: 20px" href="<?URL::base()?>groups/add"><?php echo __('g.add'); ?></a>

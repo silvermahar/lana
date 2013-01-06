@@ -15,7 +15,7 @@
 			padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
 			background-image: url(http://subtlepatterns.subtlepatterns.netdna-cdn.com/patterns/debut_dark.png);
 		}
-		h1, label {
+		h1, label, ul {
 			color:white;
 		}
 		.help-block  {

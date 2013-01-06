@@ -10,7 +10,7 @@
 	<?foreach ($group->members->find_all() as $user): ?>
 	<tr>
 		<td><?=$user->id; ?></td>
-		<td><?=$user->username; ?></td>
+		<td><a href="<?=URL::base()?>users/view/<?=$user->id; ?>"><?=$user->name; ?></a></td>
 	</tr>
 		<? endforeach?>
 	</tbody>
