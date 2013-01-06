@@ -11,7 +11,12 @@ class Controller_Groups extends Controller_Main {
 	{
 		if($this->request->post('add')){
 			$group_data=$this->request->post('group');
-			$this->_orm->save_group($group_data);
+			try {
+				$this->_orm->save_group($group_data);
+				$this->redirect('groups');
+			} catch(ORM_Validation_Exception $e) {
+				Notify::error("Palun normaalseid andmeid!");
+			}
 		}
 	}
 } // End Welcome

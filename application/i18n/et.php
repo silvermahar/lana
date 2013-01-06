@@ -9,8 +9,9 @@ return array
 	'p.name' => 'Projekt Lana',
 	'groups' => 'Rühmad',
 	'logout' => 'Logi välja',
-	'g.id' => 'Grupi ID',
-	'g.add' => 'Lisa uus grupp',
-	'g.name' => 'Grupi nimi',
-	'g.add' => 'Uue grupi lisamine',
+	'g.id' => 'Rühma ID',
+	'g.add' => 'Lisa uus rühm',
+	'g.name' => 'Rühma nimi',
+	'g.add' => 'Uue rühma lisamine',
+	'g.help' => 'Selle vormi abil saad lisada meie andmebaasi uue õppegrupi',
 );

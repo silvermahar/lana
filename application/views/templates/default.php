@@ -57,7 +57,7 @@
 					<li class="active"><a href="#">Home</a></li>
 					<li><a href="<?=URL::base() ?>groups"><?php echo __('groups'); ?></a></li>
 					<li><a href="#contact">Contact</a></li>
-					<li><a href="auth/logout"><?php echo __('logout'); ?></a></li>
+					<li><a href="<?=URL::base() ?>auth/logout"><?php echo __('logout'); ?></a></li>
 				</ul>
 			</div><!--/.nav-collapse -->
 		</div>

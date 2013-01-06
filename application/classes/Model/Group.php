@@ -5,4 +5,8 @@ public function save_group(array $group_data){
 	$this->save();
 }
 
+	public function rules(){
+		 return [ 'name'=>[['not_empty']] ];
+	}
+
 }
